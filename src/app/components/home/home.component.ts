@@ -10,7 +10,7 @@ import type { APIResponse, Game } from 'src/models';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
-  public sort: string = ''
+  public sort: string = 'name'
   public games: Array<Game> = []
 
   constructor(
