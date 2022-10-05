@@ -17,13 +17,15 @@ import { HomeComponent } from './components/home/home.component'
 import { HttpHeaderInterceptor } from './interceptors/http-headers.interceptor';
 import { HttpErrorInterceptor } from './interceptors/http-errors.interceptor';
 import { DetailsComponent } from './components/details/details.component';
+import { GameTapsComponent } from './components/fragmemts/game-taps/game-taps.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SearchBarComponent,
     HomeComponent,
-    DetailsComponent
+    DetailsComponent,
+    GameTapsComponent
   ],
   imports: [
     BrowserModule,
